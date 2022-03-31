@@ -39,7 +39,7 @@ function draw() {
   let posX = random(width);
   let posY = random(height);
   
-  // console.log(pg.get(10, 10)); // RGB+A
+  // console.log(pg.get(5, 5)); // RGB+A
 
   fill(pg.get(posX, posY)); 
   ellipse(posX, posY, 10, 10);
