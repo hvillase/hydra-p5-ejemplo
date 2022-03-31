@@ -17,7 +17,7 @@ voronoi(10).color(2,3,4).out();
 /////////////////////////
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(500, 400);
   console.log("hola mundo")
   hc = select("#myCanvas")
   hc.hide()
