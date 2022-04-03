@@ -11,7 +11,8 @@ var hydra = new Hydra({ canvas: document.getElementById("myCanvas") })
 
 /////////////////////////
 
-voronoi(10).color(2,3,4).out(); 
+
+shape(3).mult(noise(100)).color(0.1,2,3).out(); 
 // hush(); 
 
 /////////////////////////
